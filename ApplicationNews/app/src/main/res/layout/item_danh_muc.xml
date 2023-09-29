@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemDanhMuc_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_item"
+    android:elevation="5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/itemDanhMuc_txtDanhMuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginStart="10dp"
+        android:gravity="left"
+        android:text="@string/danh_muc"
+        android:textColor="@drawable/text_color_press"
+        android:textSize="20sp" />
+</LinearLayout>
